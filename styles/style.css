@@ -1,0 +1,392 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* banner section */
+
+
+.first-banner{
+ border-radius: 16px;
+ background: linear-gradient(180deg, #070211 0%, rgba(3, 1, 8, 0) 100%),url('../Imges/Banner\ Image.png');
+border-radius: 16px;
+width: 1320px;
+height: 600px;
+margin:50px auto;
+}
+.first-banner h3{
+    color: #fff;
+text-align: center;
+font-family: Merriweather;
+font-size: 32px;
+font-weight: 400;
+padding-top: 177px;
+}
+.first-banner h1{
+    color: #fff;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    padding:45px 175px;
+}
+.banner-second{
+    display: block;
+   text-align: center;
+   margin: 65px auto;
+}
+.banner-second h1{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+}
+.banner-second h4{
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 25px;
+}
+.banner-second h2{
+    color: #070211;
+text-align: center;
+font-family: Inter;
+font-size: 48px;
+font-weight: 700;
+padding-bottom: 48px;
+}
+.welcome-banner{
+display: flex;
+text-align: start;
+    align-items: center;
+    gap: 90px;
+   
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../Imges/Vectorrr.png');
+    background-repeat: no-repeats;
+    width: 1320px;
+    height: 600px;
+    margin: 120px auto;
+}
+
+.welcome-banner h1{
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    letter-spacing: 7.04px;
+    padding: 126px 126px 24px 126px;
+}
+.welcome-banner p{
+    color: rgba(255, 255, 255, 0.80);
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+padding: 0px 126px;
+}
+.welcome-banner .btn{
+margin: 48px 600px 100px 140px;
+color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+background-color: transparent;
+border: none;
+}
+.welcome-banner .btn:hover {
+    border: 2px solid white;
+}
+
+
+/* Address section */
+
+
+.address{
+display: flex;
+justify-content: center;
+width: 1320px;
+height: 482px;
+text-align: center;
+background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);;
+margin: 120px auto;
+
+}
+.address-item{
+   padding: 100px 300px 50px; 
+}
+.address-item h1{
+    color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 32px;
+font-weight: 600;
+text-transform: capitalize;
+}
+.address-item span{
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.join{
+    padding-top: 65px;
+
+}
+.join .join-btn{
+    color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+border: none;
+border-radius: 8px;
+background: #F00;
+width: 150px;
+height: 45px;
+}
+
+
+/* Offer section */
+
+
+#offer-section{
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+    margin:120px;
+}
+#offer-section .box{
+display: flex;
+justify-content: center;
+ width: 400px;
+height: 400px;
+border-radius: 50%;
+border: 15px solid #F00;
+
+}
+#offer-section .box img{
+ padding: 50px;
+}
+.offer-title-main{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 25px;
+}
+.offer-title{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    padding: 25px;
+}
+.offer-description{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400; 
+      padding: 25px;
+}
+
+
+/* sales section */
+
+
+#sales-section{
+    text-align: center;
+    margin:120px 120px;
+}
+.sales-title{
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+.sales-main-title{
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+.sales-main-title span{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+.sales-description{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    width: 1068px;
+}
+.sales-img{
+    display: flex;
+    background-image: url('../Imges/Rectangle\ 2.png');
+    background-position: left bottom;
+    background-repeat: no-repeat;
+     gap: 30px;
+     padding-top:60px ;
+}
+#descount{
+    background-image: url('../Imges/Rectangle\ 1.png');
+    background-repeat: no-repeat;
+    padding: 140px 585px 29px 2px;
+}
+   
+
+/* proudct-section */
+
+#proudct-section{
+    display: block;
+   align-items: center;
+    margin:0px 120px ;
+}
+.about-product{
+  padding: 25px ;
+
+}
+.product-title{
+    color: #F00;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+}
+.product-main-title{
+    color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+
+}
+.product-description{
+    color: rgba(7, 2, 17, 0.60);
+    width: 896px;
+    text-align: center;
+    width: 600px;
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+padding-bottom:40px ;
+}
+.img-row{
+    display: flex;
+    padding-bottom: 65px;
+    
+}
+.img-row img{
+    margin-left: 15px;
+    border-radius: 10px;
+    width: 424px;
+height: 450px;
+}
+.img-row img:hover{
+    border: 2px solid #4f4141;
+    border-radius: 10px;
+}
+
+/* Subscribe-section */
+
+.Subscribe-section{
+    text-align: center;
+    margin:50px 120px;
+    border-radius: 16px;
+background: rgba(255, 0, 0, 0.05);
+}
+.Subscribe-title{
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;  
+}
+.Subscribe-description{
+    color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+padding: 42px 250px;
+}
+.Subscribe-user{
+    padding-bottom: 45px;
+}
+.Subscribe-user input{
+    height: 40px;
+    width: 400px;
+   padding-left: 7px ;
+   border: none;
+}
+.Subscribe-btn{
+    height: 40px;
+    width: 100px;
+    border: none;
+    background: #F00;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+}
+
+/* footer section */
+.footer-section{
+    background: #070211;
+    margin: 60px auto;
+}
+.location-contact{
+    display: flex;
+    justify-content: space-between;
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+padding:20px 30px 20px 30px;
+}
+ul>li{
+    list-style: none;
+}
+.social-link{
+    display: flex;
+ justify-content: center;
+ padding-bottom: 30px;
+ 
+}
+.social-link img{
+    margin-left: 15px;
+}
+.copyright-unsub{
+    display: flex;
+    justify-content: space-between;
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+padding:20px 30px 20px 30px;
+}
+.un-sub-btn{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    border: none;
+    background-color: transparent;
+}
+.un-sub-btn:hover{
+    border: 2px solid wheat;
+}
